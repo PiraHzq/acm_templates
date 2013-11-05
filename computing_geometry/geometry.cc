@@ -140,6 +140,6 @@ int main()
 {
 	freopen("a","r",stdin);
 	//freopen("wa","w",stdout);
-	
+
 	return 0;
 }
