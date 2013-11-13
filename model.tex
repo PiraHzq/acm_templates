@@ -1,0 +1,79 @@
+\documentclass[utf8,8pt]{article}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{CJKutf8}
+\usepackage{geometry} 
+\geometry{left=2.5cm,right=2.0cm,top=1.8cm,bottom=1.8cm}  %设置 上、左、下、右 页边距
+\lstset{numbers=left, keywordstyle=\color{blue!90},language=C++,breaklines,extendedchars=false,frame=shadowbox,
+commentstyle=\color{red!90!green!90!blue!90},
+rulesepcolor=\color{red!20!green!20!blue!20} }
+
+\title{Pira的模版库}
+\author{Pira}
+\date{\today}
+
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}
+\maketitle
+
+\tableofcontents
+
+\clearpage
+
+\section{String}
+	\subsection{Extend KMP}
+		\lstinputlisting{string/Extend_KMP.cc}
+	\subsection{Manacher}
+		\lstinputlisting{string/Manacher.cc}
+	\subsection{Aho-Corasick Automaton}
+		\lstinputlisting{string/Aho_Corasick_Automaton.cc}
+	\subsection{Suffix Array}
+		\lstinputlisting{string/Suffix_Array.cc}
+	\subsection{Suffix Tree}
+		\lstinputlisting{string/Suffix_Tree.cc}
+	\subsection{Suffix Automaton}
+		\lstinputlisting{string/Suffix_Automaton.cc}
+\clearpage
+
+\section{Data Structure}
+	\subsection{Binary Index Tree}
+		\lstinputlisting{data_structure/Binary_Index_Tree.cc}
+	\subsection{Range Maximum Query}
+		\lstinputlisting{data_structure/Range_Maximum_Query.cc}
+	\subsection{Size Balanced Tree}
+		\lstinputlisting{data_structure/Size_Balanced_Tree.cc}
+	\subsection{Splay Tree}
+		\lstinputlisting{data_structure/Splay_Tree.cc}
+	\subsection{Path Decomposition}
+		\lstinputlisting{data_structure/Path_Decomposition.cc}
+	\subsection{Rectange Tree}
+		\lstinputlisting{data_structure/Rectange_Tree.cc}
+	\subsection{Dancing Links Accurate Cover}
+		\lstinputlisting{data_structure/Dancing_Links_Accurate_Cover.cc}
+	\subsection{Dancing Links Complete Cover}
+		\lstinputlisting{data_structure/Dancing_Links_Complete_Cover.cc}
+	\subsection{Persistent Data Structures}
+		\subsubsection{Interval k large}
+			\lstinputlisting{data_structure/Interval_k_large.cc}
+		\subsubsection{Interval k large on Tree}
+			\lstinputlisting{data_structure/Interval_k_large_on_Tree.cc}
+	\subsection{Link Cut Tree}
+		\lstinputlisting{data_structure/Link_Cut_Tree.cc}
+	\subsection{Divide and Conquer on Tree}
+		\lstinputlisting{data_structure/Divide_and_Conquer_on_Tree.cc}
+\clearpage
+		
+\section{Dynamic Programming}
+	\subsection{Multi Pack Optimization}
+		\lstinputlisting{Dynamic_Programming/Multi_Pack.cc}
+	\subsection{Matrix}
+		\lstinputlisting{Dynamic_Programming/Matrix.cc}
+	\subsection{Slope Optimization}
+		\lstinputlisting{Dynamic_Programming/Slope_Optimization.cc}
+	\subsection{Plug DP}
+		\lstinputlisting{Dynamic_Programming/Plug_DP.cc}
+\clearpage	
+\end{CJK}
+\end{document}

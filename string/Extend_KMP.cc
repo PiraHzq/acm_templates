@@ -8,7 +8,7 @@ using namespace std;
 int s[N], p[N];
 int a[N], b[N];
 int extend_kmp(int p[], int a[], int n, int s[] , int b[], int m)
-{//p表示模式串
+{// p 表示模式串
     int k = 0;
     FOR(i,1,n-1)
     {
